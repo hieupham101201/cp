@@ -47,8 +47,8 @@ h4 {
     margin-bottom: 70px;
 }
 
-.post h2 a,
-.post h2 a:visited {
+.post h2 a ,
+.post h2 a :visited {
     color: #000000;
 }
 
@@ -69,9 +69,7 @@ h4 {
     background-color: #C25100;
 }
 
-
-article p .p2 {
-    background-color: red;
+.p2 {
     width: 300px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -80,3 +78,4 @@ article p .p2 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
 }
+.p1 

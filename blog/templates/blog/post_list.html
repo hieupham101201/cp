@@ -8,6 +8,7 @@
             </time>
             <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
             <p class="p2">{{ post.text|linebreaksbr }}</p>
+            <a href="{% url 'post_detail' pk=post.pk %}">Đọc tiếp</a>
         </article>
     {% endfor %}
 {% endblock %}
